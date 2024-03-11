@@ -1,0 +1,28 @@
+{
+  "name": "simple-keyboard-shortcut-handler",
+  "version": "0.1.0",
+  "description": "A simple library for implementing customizable keyboard shortcuts in web apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlaaavor/simple-keyboard-shortcut-handler"
+  },
+  "keywords": ["keyboard", "shortcuts", "events", "web"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mousetrap": "^1.6.5",
+    "keymaster": "^1.6.2",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "eventemitter3": "^4.0.7",
+    "tiny-emitter": "^2.1.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
